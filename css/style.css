@@ -1,0 +1,75 @@
+body {
+    background-color: #406343;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+h1 {
+    color: black;
+    font-size: 88px;
+    text-shadow: black 2px 2px 4px;
+}
+
+#operationContainer, #toolsContainer {
+    /* give width, make flex, display evenly */
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+button, input {
+    border: 8px solid #32502E;
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #32502E;
+    color: white;
+    cursor: pointer;
+}
+
+input {
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0;
+    width: 140px;
+}
+
+#toolsContainer button {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 6px 30px;
+}
+
+/* light mode  */
+
+.lightBody {
+    background-color: white;
+}
+
+.lightBtns {
+    background-color: rgb(29, 29, 29); 
+    color: #F3EFCC;
+}
+
+/* Dark mode  */
+
+.darkBody {
+    background-color: #406343;
+}
+
+.darkBtns {
+    background-color: #F3EFCC; 
+    color: rgb(29, 29, 29);
+}
